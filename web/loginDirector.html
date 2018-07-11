@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+<div class="header">
+    <!--<h1>Добро пожаловать в Нашу Компанию!</h1>-->
+</div>
+
+
+<div class="label_on_reg">
+    <h1 class="lb" >Войдите в систему</h1>
+</div>
+
+
+<div class ="content">
+
+    <div class ="right-content">
+        <form  action="/dbconnection" method="post" class='reg-form'>
+
+            <div class='form-row'>
+                <label for='form_fname'>First Name: </label>
+                <input type='text' id='form_fname' name="first_name">
+            </div>
+
+            <div class='form-row'>
+                <label for='form_sname'>Second Name: </label>
+                <input type='text' id='form_sname' name="second_name">
+            </div>
+
+            <div class='form-row'>
+                <label for='form_password'>Password: </label>
+                <input type='password' id='form_password' name="password">
+            </div>
+
+            <div class="form-row">
+                <input type="submit" value='Go'>
+            </div>
+            <input type="hidden" name ="Type" value="Director">
+
+        </form>
+
+    </div>
+
+</div>
+</body>
+</html>

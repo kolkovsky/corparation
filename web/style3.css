@@ -1,0 +1,41 @@
+body{
+    background: url(windows-10-gory-pustynya-pesok.jpg);
+}
+
+html{
+    box-sizing: border-box;
+}
+
+.backpage{
+    /*margin: 0 auto;*/
+    /*padding-left: 20px;*/
+    display: grid;
+    grid-template-areas:"a a a"
+    "b b b" " c c c";
+    justify-items: center;
+    /*align-content*/
+}
+
+
+#grid1,#grid2,#grid3{
+
+}
+
+.descDirector, .descWorker, .descManager{
+    border: 1px;
+    width: 400px;
+    background-color: aliceblue;
+    /*padding-left: 10px;*/
+    border-radius: 0px 0px 10px 10px;
+}
+
+.Employee, .Director,.Worker{
+    border-radius: 10px 10px 0px 0px;
+    border: 1px;
+    width: 400px;
+    height: 186px;
+    background-color: yellow;
+    font-size:400%;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+}

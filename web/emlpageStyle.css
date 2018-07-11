@@ -1,0 +1,15 @@
+body{
+    background: url(windows-10-gory-pustynya-pesok.jpg);
+}
+
+.grid-container{
+    /*margin: 0 auto;*/
+    /*padding-left: 20px;*/
+    display: grid;
+    grid-template-areas:"a a "
+    "b b ";
+    justify-items: center;
+    /*align-content*/
+
+}
+

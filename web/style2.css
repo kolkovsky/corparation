@@ -1,0 +1,100 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+header {
+    background-color: #4caf50;
+}
+
+nav {
+    background-color: #80d8ff;
+}
+
+main {
+    background-color: #009688;
+}
+
+footer {
+    background-color: #2196f3;
+}
+
+h1,
+h2,
+ul,
+p {
+    margin: 0;
+}
+
+header,
+nav,
+main,
+footer {
+    padding: 1em;
+}
+
+#grid,
+#grid1,
+#grid2 {
+    display: grid;
+}
+
+#grid {
+    grid-template-areas: "header header"
+    "nav  main"
+    "footer ."
+}
+
+#grid1 {
+    grid-template-areas: "header header"
+    "nav  main"
+    "footer footer"
+}
+
+#grid2 {
+    grid-template: "a a"
+    "b c"
+    "d d";
+}
+
+#grid > header,
+#grid1 > header {
+    grid-area: header;
+}
+
+#grid > nav,
+#grid1 > nav {
+    grid-area: nav;
+}
+
+#grid > main,
+#grid1 > main {
+    grid-area: main;
+}
+
+#grid > footer,
+#grid1 > footer {
+    grid-area: footer;
+}
+
+#grid2 > header {
+    grid-area: a;
+}
+
+#grid2 > footer {
+    grid-area: d;
+}
+
+.example-code {
+    display: inline-block;
+    background-color: #e0e0e0;
+    margin: 1em;
+}
+
+pre {
+    margin: 0;
+    padding: 0  1em 0.5em 0;
+}
